@@ -1,0 +1,83 @@
+.grid-container {
+  height: 50%;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(60, 1fr);
+  margin: 0 auto;
+  outline: 1px solid black;
+}
+
+.block {
+  padding: 50%;
+  outline: 0.5px solid black;
+  width: auto;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.start{
+  background-color: pink;
+}
+
+.end{
+  background-color: yellow;
+}
+
+.visited{
+  background-color: #ffeeba;
+}
+
+
+.finalPath {
+  background-color: #d4edda;
+}
+
+#runAlgorithm{
+  display: flex;
+  text-align: center;
+}
+
+.wall {
+  background-color: #343a40;
+}
+
+.navbar {
+  background-color: #343a40;
+  padding: 20px 0;
+}
+
+.navbar-nav .nav-link {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+/* Center-align navigation links */
+.navbar-nav .nav-item {
+  text-align: center;
+}
+
+/* Center-align dropdown toggle */
+.dropdown-toggle::after {
+  display: inline-block;
+  vertical-align: 0.200em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+.navbar-nav .nav-link {
+  font-size: 20px;
+}
+
+
+.navbar-toggler-icon {
+  font-size: 30px; 
+}
