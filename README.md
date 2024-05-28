@@ -1,6 +1,6 @@
 # pathfinding.github.io
 
-Website: https://cookiehumanitarian.github.io/pathfinding.github.io/
+Website: https://cookiehumanitarian.github.io/Pathfinding_Visualiser.github.io/
 
 Felt inspired by Clement's pathfiding visualiser and decided to try to emulate it and do everything on my own.
 
