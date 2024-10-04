@@ -57,12 +57,11 @@
   margin: 0 auto;
 }
 
-/* Center-align navigation links */
+
 .navbar-nav .nav-item {
   text-align: center;
 }
 
-/* Center-align dropdown toggle */
 .dropdown-toggle::after {
   display: inline-block;
   vertical-align: 0.200em;
@@ -80,4 +79,32 @@
 
 .navbar-toggler-icon {
   font-size: 30px; 
+}
+
+#text {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+#text strong {
+  font-weight: bold;
+  color: #555;
+}
+
+#text a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#text a:hover {
+  text-decoration: underline;
 }
